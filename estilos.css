@@ -1,0 +1,60 @@
+.fondo{background-color: #bfbfbf40}
+
+.Titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8d3a7821;
+    font-size: 3em;
+    color: crimson}
+    
+    
+    .SubTitulo  {
+        font-size: 3em;
+        color: brown;}
+#principal{
+    font-size: 5em;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+ }
+.SubTitulo2{
+    width: 14vw;
+    font-size: 2em;
+    color: #890e0e;
+    background-color: #8d3a7821
+}
+#Titulos{
+    border: 5px solid rgb(119, 94, 94); background-color: rgb(235, 185, 185);
+    width: 80vw;
+    margin: auto;
+    padding: 1em;
+}
+ .Cards{
+    transition: 1s;
+    border: 2px solid   #890e0e;
+    width: fit-content;
+    padding: 0px 1em 5px 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Cards:hover{
+    background-color: rgb(177, 179, 177);
+}
+#cards-container {
+    background-color: #8d3a7821;
+    width: 50vw; 
+    margin: auto;
+    margin-top: 3em;
+    border: 2px solid rgb(187, 73, 73);
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+#HomeNoticiasClima{
+    width: 30em;
+    margin: auto;
+}

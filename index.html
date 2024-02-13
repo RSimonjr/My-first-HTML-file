@@ -2,23 +2,35 @@
 <html lang="es">
     <head> 
         <title>Mi página web</title>
+        <link rel="stylesheet" type="text/css" href="./estilos.css" />
     </head>
-    <body>
+    <body class="fondo">
 
         <header>
-            <h1>Este es el titulo principal de mi pagina web</h1>
-
-            <span> HOME</span> 
-            <span>NOTICIAS</span>
-            <span>CLIMA</span>
+            <Div id="Titulos">
+                <h1 class="Titulo" id="principal">Este es el titulo principal de mi pagina web</h1>
+                <div id ="HomeNoticiasClima">
+                    <span class="SubTitulo2"> HOME</span> 
+                    <span class="SubTitulo2">NOTICIAS</span>
+                    <span class="SubTitulo2">CLIMA</span>
+                </div>
+            </Div>
         </header>
-        
-        <main>
-
-            <img src="./Radio dos.png" />
             
+        <main>
+            <div id= "cards-container" >
+                <Div class="Cards">
+                    <h2 class="SubTitulo2">RADIO DOS SRL</h2>
+                    <img src="./Radio dos.png" class="logo" />
+                </Div>
+                <div class="Cards">
+                    <h2 class="SubTitulo2">MMA LAB SRL</h2>
+
+                    <img src="./Mmalab.jpg" class="logo">
+                </div>    
+            </div>    
             <Section>
-                <h1> Este es el titulo de una esccion de noticias</h1>
+                <h1 class="SubTitulo"> Este es el titulo de una esccion de noticias</h1>
 
                 <article>
                 <h2> Esta es la noticia N°1</h2>
@@ -27,7 +39,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum inventore sed, quaerat ab placeat, error ea quas fugit tenetur est corrupti! Excepturi nisi vitae eaque impedit mollitia rem exercitationem.</p>
                 </div>
                 </article> 
-             <hr />
+             <hr style="background-color: blue;"/>
                 <article>
                 <h2>Esta es la noticia N°2</h2>
                     
